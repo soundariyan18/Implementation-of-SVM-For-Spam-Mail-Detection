@@ -28,13 +28,12 @@ To write a program to implement the SVM For Spam Mail Detection.
 9)Monitor the model's performance and periodically update it with new data or adjust hyperparameters as needed. 
 
 ## Program:
-```
-/*
+
 Program to implement the SVM For Spam Mail Detection..
 Developed by: Soundariyan M.N
-RegisterNumber: 212222230146 
-*/
+RegisterNumber: 212222230146
 
+```python
 import chardet
 file='/content/spam.csv'
 with open(file,'rb') as rawdata:
@@ -71,7 +70,6 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
-
 ```
 
 ## Output:
